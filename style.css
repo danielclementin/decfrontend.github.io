@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Estilos para el cuerpo del documento */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #cfe4fc;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #1c2541;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Estilos para la sección de introducción y explicación */
+#intro-explicacion {
+  padding: 2rem;
+  text-align: justify;
+}
+
+#intro-explicacion h2 {
+  color: 1c2541;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#intro-explicacion p {
+  margin-bottom: 1rem;
+}
+
+/* Estilos para la sección de imágenes */
+#seccion-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#seccion-imagenes h2 {
+  color: #0077b6;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#seccion-imagenes img {
+  margin: 0.5rem;
+  border: 5px solid #0077b6;
+  border-radius: 10px;
+}
+
+/* Estilos para la sección de formulario */
+#seccion-formulario {
+  padding: 2rem;
+  text-align: center;
+}
+
+#seccion-formulario h2 {
+  color: #1c2541;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0077b6;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #1c2541;
+  color: #fff;
+}
